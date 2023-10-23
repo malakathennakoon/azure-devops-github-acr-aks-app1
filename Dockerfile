@@ -1,2 +1,3 @@
 FROM nginx
-COPY index.html /usr/share/nginx/html
+WORKDIR /html
+COPY * /usr/share/nginx/html 
